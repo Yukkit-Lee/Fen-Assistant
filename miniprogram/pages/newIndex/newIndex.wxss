@@ -1,0 +1,66 @@
+.texx{
+   font-size: large;
+    font-family: "腾讯W3";
+}
+
+.item{
+    height: 160rpx;
+    background-color: #2d8cf0;
+    margin-top: 20rpx;
+    /* margin-bottom: 20rpx; */
+    border-radius:22px;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    position: relative;
+    box-shadow:2px 2px 6px #909090;
+}
+
+.item .title{
+    font-family: "腾讯W7";
+    font-size: 45rpx;
+    position: absolute;
+    top: 20rpx;
+    left: 24rpx;
+    color: white;
+}
+
+.item .time{
+    font-size: 25rpx;
+    color: #eee;
+    position: absolute;
+    top: 100rpx;
+    left: 20rpx;
+
+}
+
+.item .tags{
+    position: absolute;
+    top: 89rpx;
+    left: 570rpx;
+}
+
+
+.round-click{
+    height: 110rpx;
+    width: 110rpx;
+    background-color: #2d8cf0;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 80rpx;
+    right: 30rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+    box-shadow:2px 2px 6px #909090;
+}
+.round-click view text{
+    font-size: 30rpx;
+    /* font-weight: 600; */
+    /* font-family: "腾讯W3"; */
+    display: flex;
+    justify-self: center;
+    max-width: 80rpx;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+<!-- <button bindtap="ppp"> asd</button> -->
+<view class="steps" wx:for="{{length}}">
+<!-- <view class="box"> -->
+<i-steps class="steps" >
+    <i-step status="finish">
+        <view slot="title">
+              {{startTime[index]}}
+        </view>
+        <view slot="content" class="textA">
+        <view slot="content" class="text">
+         时长:{{duration[index]}}h
+        </view>
+    </view>
+    </i-step>
+    <!-- status设置为一个变量 -->
+    <i-step status="process" wx:if="{{done[index]}}">
+        <view slot="title">
+            {{endTime[index]}}
+        </view>
+        <view slot="content">
+      
+        </view>
+    </i-step>
+    <i-step status="wait" wx:else="">
+        <view slot="title">
+            {{endTime[index]}}
+        </view>
+        <view slot="content">
+      
+        </view>
+    </i-step>
+</i-steps>
+<!-- </view> -->
+</view>
+
+
+
+<view class="point">
+<view>
+<text class="info">- 当前累计:</text>
+<text class="curPoint">{{point}}</text>
+<text class="info">分 -</text>
+</view>
+<text>注:当前数据(学习时长)仅从2022-2-28开始统计</text>
+</view>

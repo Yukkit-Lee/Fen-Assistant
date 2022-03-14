@@ -1,0 +1,24 @@
+<!-- <button  bindtap="getUserProfile"> 获取头像昵称 </button>
+<button type="primary" bindtap="verify">点击进入下一页 </button>
+
+<view class="texx">123456789我是腾讯体</view> -->
+<!-- <view>this is a test!</view> -->
+
+<view class="item" wx:for="{{length}}" bindtap="actionSheet" data-index="{{index}}">
+    <view class="title">{{title[index]}}</view>
+    <view class="time">开始时间: {{eventTime[index]}}</view>
+    <i-div class="tags">
+       可用标签 
+    </i-div>
+</view>
+<!-- <button bindtap="requestSubMsg" type='primary' style="margin-top: 50rpx;">获取订阅消息授权</button> -->
+<!-- 嵌入输入事项按钮中↑ 不单独设置button -->
+<!-- <button bindtap="getOpenid">获取openid并推送消息</button> -->
+<!-- <button bindtap="testTap">asd</button> -->
+
+<!-- 手动更新所有数据isDone状态 自动为updateEventDone云函数 -->
+<!-- <button bindtap="addData">添加isDone</button> -->
+<!-- <button bindtap="getinfo" open-type="getUserInfo">asdasdasd</button> -->
+<view class="round-click">
+   <view  bindtap="navTap"><text>添加日程</text></view>
+</view>

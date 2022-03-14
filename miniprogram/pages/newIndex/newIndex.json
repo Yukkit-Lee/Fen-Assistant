@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "i-button":"../../dist/button/index",
+    "i-div":"../../dist/tag/index"
+  },
+  "enablePullDownRefresh":true,
+  "navigationBarTitleText": "日程待办"
+}

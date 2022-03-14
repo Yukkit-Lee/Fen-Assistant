@@ -1,0 +1,53 @@
+<view class="box">
+  <view class="button" wx:if="{{!bootStatus}}">
+    <!-- <image class="buttonImg" bindtap="getCurrentTime" hover-class='wsui-btn__hover_list' src="cloud://cloud1-1gbei9qk7777fe06.636c-cloud1-1gbei9qk7777fe06-1309430445/icon/118.png"> -->
+    <view class="circle" bindtap="getCurrentTime" hover-class='wsui-btn__hover_list'></view>
+    <!-- </image> -->
+    <view class="text" bindtap="getCurrentTime" hover-class='wsui-btn__hover_list'>开始计时</view>
+
+    <view class="time" wx:if="{{address}}">
+      <image src="cloud://cloud1-1gbei9qk7777fe06.636c-cloud1-1gbei9qk7777fe06-1309430445/icon/401位置-线性.png" style="width: 30rpx;height: 30rpx;"></image>{{address}}
+    </view>
+    <view class="time" wx:else>
+      <image src="cloud://cloud1-1gbei9qk7777fe06.636c-cloud1-1gbei9qk7777fe06-1309430445/icon/401位置-线性.png" style="width: 30rpx;height: 30rpx;"></image>
+      正在获取定位中...
+    </view>
+
+
+  </view>
+  <view class="button" wx:if="{{bootStatus}}">
+    <view class="circleTrans" bindtap="getCurrentTimeToEnd" hover-class='wsui-btn__hover_list'></view>
+    <view class="text" bindtap="getCurrentTimeToEnd" hover-class='wsui-btn__hover_list'>停止计时</view>
+
+    <view class="time" wx:if="{{address}}">
+      <image src="cloud://cloud1-1gbei9qk7777fe06.636c-cloud1-1gbei9qk7777fe06-1309430445/icon/401位置-线性.png" style="width: 30rpx;height: 30rpx;"></image>{{address}}
+    </view>
+    <view class="time" wx:else>
+      <image src="cloud://cloud1-1gbei9qk7777fe06.636c-cloud1-1gbei9qk7777fe06-1309430445/icon/401位置-线性.png" style="width: 30rpx;height: 30rpx;"></image>
+      正在获取定位中...
+    </view>
+  </view>
+  <view class="history">- 上次已学习:{{studyTime}} h -</view>
+</view>
+
+<button class="historyRecode" bindtap="toLogsPage">更新日志</button>
+
+
+<!-- ------------------管理端---------------- -->
+<!-- <view class="adminMode">
+<button class="admin" bindtap="updateDuration" size="mini" wx:if="{{isAdmin}}">recalcu</button>
+<button class="admin" bindtap="addMulti" size="mini" wx:if="{{isAdmin}}">multi</button>
+</view> -->
+
+
+<!-- ------------------已废弃---------------- -->
+<!-- <view class="swit">
+  <switch color="#0077ff" bindchange="listenerSwitch"></switch>
+  <view wx:if="{{checked}}">已开启1.8倍加速</view>
+
+</view> -->
+
+<!-- <view class="testText" >我我我我我我我</view> 
+
+<button bindtap="money">oo</button>
+<button bindtap="getOpenid">获取用户的openid并推送消息  </button> -->

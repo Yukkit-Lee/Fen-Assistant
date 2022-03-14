@@ -1,0 +1,49 @@
+/* pages/daysPage/daysPage.wxss */
+
+.box {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 1000rpx;
+    margin-top: 20px;
+    margin-left: 55rpx;
+    margin-right: 55rpx;
+    /* background-color: #2d8cf0; */
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#2d8cf0), to(#0077ff));
+  
+    border-radius: 15px;
+}
+
+.box image {
+    width: 144rpx;
+    height: 144rpx;
+    margin-top: 80rpx;
+}
+
+.box .title {
+    font-size: 60rpx;
+    font-weight: 550;
+    margin-top: 70rpx;
+    color: white;
+    font-family: "腾讯W7";
+}
+
+.box .time {
+    color: #e0dfdf;
+}
+
+.box .duration {
+    /* font-family: "腾讯W3"; */
+    /* font-weight: 800; */
+    margin-top: 90rpx;
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.tian {
+
+    font-size: 30px;
+    font-weight: 530;
+}

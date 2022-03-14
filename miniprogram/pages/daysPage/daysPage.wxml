@@ -1,0 +1,9 @@
+<view class="box">
+    <image src="cloud://cloud1-1gbei9qk7777fe06.636c-cloud1-1gbei9qk7777fe06-1309430445/671b8ac86a6e41e95cbad0897b92f097.png"></image>
+    <view class="title">{{title}}</view>
+    <view class="time">{{startTime}}</view>
+    <view class="duration">{{alreadyDays}}
+        <text class="tian">天</text>
+    </view>
+
+</view>

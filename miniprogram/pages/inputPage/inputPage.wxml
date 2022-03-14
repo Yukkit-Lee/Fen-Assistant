@@ -1,0 +1,35 @@
+<view class="bigGox">
+<view class="inputBox" animation="{{donghua}}" >
+
+
+    <form bindsubmit="submit" >
+    <view class="inputClass">
+        <!-- <view class="title">
+        事项名称
+        </view> -->
+        <input class="weui-input" name="itemName" type="text"  maxlength="8" placeholder="输入事项名称" placeholder-class="plClass" />
+    </view>
+    <view class="inputClass">
+        <view class="timeP">
+            <view >提醒时间</view>
+            <picker mode="time" name="timePicker" bindchange="setTimeTodata" class="timePicker">
+            {{currentTimeText}} <text class="op"> ></text></picker>
+        </view>
+    </view>
+        <!-- <view wx:if="{{time}}">已选择时间:{{time}}</view> -->
+        <view class="inputClass">
+        <!-- <view class="title">事项内容</view> -->
+        <input class="weui-input" name="itemContent" type="text" placeholder-class="plClass" placeholder="输入事项具体内容"  maxlength="18"/>
+        </view>
+        <!-- <view class="title">事项名称</view>
+        <input class="weui-input" name="itemName" type="text" auto-focus placeholder="输入事项名称" /> -->
+        <view class="textAreaBox">
+        <!-- <view class="title">事项备注</view> -->
+        <textarea name="textArea" cols="30" rows="10" class="textAreaClass" placeholder-class="plClass" placeholder="请输入事项具体备注(可选)" maxlength="20"></textarea>
+    </view>
+        <button form-type="submit" type="primary" class="bTn" bindtap="requestSubMsg">添加</button>
+    </form>
+
+</view>
+
+</view>

@@ -1,0 +1,105 @@
+/* pages/inputPage/inputPage.wxss */
+
+.bigGox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+
+.inputBox{
+    /* margin-top: 20rpx; */
+    position: absolute;
+
+    top:650px;
+}
+
+
+
+.weui-input{
+    background-color: #2d8cf0;
+    width: 600rpx;
+    height: 75rpx;
+    border-radius:22px;
+    color: white;
+    padding-left:0.3cm;
+    /* text-indent:10px !important; */
+    margin-bottom: 50rpx;
+    /* 18位中文 maxlength */
+    
+}
+
+.plClass{
+
+    color: white;
+
+}
+
+
+.inputClass{
+    display: flex;
+    justify-content: center;
+    align-items:baseline
+}
+.inputBox .title{
+    font-weight: 540;
+
+}
+
+.timePicker{
+    /* margin-bottom: 20rpx; */
+    color:  white;
+    
+}
+.textAreaClass{
+    /* border: 1px solid #eee; */
+    background-color: #2d8cf0;
+    width: 570rpx;
+    border-radius:18px;
+    padding-left:0.2cm;
+    padding-top:0.2cm;
+    padding-right:0.3cm;
+    color: white;
+}
+
+.timeP{
+    display: flex;
+    flex-direction: row;
+    height: 75rpx;
+    width: 580rpx;
+    padding-left: 0.3cm;
+    justify-content: space-between;
+    border: 1px solid #eee;
+    align-items: center;
+    margin-bottom: 50rpx;
+    padding-right:0.3cm;
+
+    background-color: #2d8cf0;
+    border-radius:22px;
+
+}
+
+.timeP view{
+    color: white;
+
+}
+
+.op{
+    color: white;
+
+}
+
+
+.textAreaBox{
+
+    display: flex;
+    justify-content: center;
+    align-items:baseline
+
+
+}
+.bTn{
+    margin-top: 60px;
+    background-color:#2d8cf0  !important;
+}

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "i-steps": "../../dist/steps/index",
+    "i-step": "../../dist/step/index"
+  },
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "日志及积分情况"
+}
