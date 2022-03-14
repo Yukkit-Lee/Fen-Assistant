@@ -9,6 +9,4 @@
 
 ## 使用说明
 
-- **必看**
-  ![重要](https://cloud1-1gbei9qk7777fe06-1309430445.tcloudbaseapp.com/image/imo.png?sign=1ebbea54cf4e32c2b443232032ffc097&t=1647271768)
   **勾选 总是保持以上选择，不再询问**
