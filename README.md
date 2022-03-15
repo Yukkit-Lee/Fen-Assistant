@@ -11,4 +11,5 @@
 
   **勾选 总是保持以上选择，不再询问**<br/>
   ![勾选](https://cloud1-1gbei9qk7777fe06-1309430445.tcloudbaseapp.com/image/QQ%E6%88%AA%E5%9B%BE20220315173235.png?sign=3c4e8fa093a269b6314bf56945b8377e&t=1647336893)
-<font color=#eee>鉴于微信订阅消息非特定商户每次只能发送一条订阅消息</font>
+  <br/>
+<font color=#eee size=1>鉴于微信订阅消息非特定商户每次只能发送一条订阅消息</font>
