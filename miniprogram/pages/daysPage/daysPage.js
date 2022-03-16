@@ -19,12 +19,13 @@ Page({
             var curTime=new Date();
             console.log()
             console.log(startTime)
+            console.log(((curTime.getTime()-tempTime.getTime())/1000/60/60/24))
             this.setData({
                 title: res.result.data[0].title,
                 startTime: startTime,
-                alreadyDays:new Date(curTime.getTime()-tempTime.getTime()).getDate()-1
+                alreadyDays:Math.floor(((curTime.getTime()-tempTime.getTime())/1000/60/60/24))
             })
-            console.log(res)
+            console.log(res)//2022-3-16 20:40:08 修复 getDate()造成的倒数日无法正确显示问题
         })
 
     },
