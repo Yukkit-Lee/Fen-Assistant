@@ -25,7 +25,8 @@ Page({
                 startTime: startTime,
                 alreadyDays:Math.floor(((curTime.getTime()-tempTime.getTime())/1000/60/60/24))
             })
-            console.log(res)//2022-3-16 20:40:08 修复 getDate()造成的倒数日无法正确显示问题
+            console.log(res)
+
         })
 
     },
